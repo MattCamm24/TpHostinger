@@ -512,7 +512,7 @@ div {
 }
 
 .btn.claim, .btn.countdown{
-    width: 30%;
+    width:30%;
 }
 
 .base-hero-image img{
@@ -590,8 +590,13 @@ div {
 }
 
 .main-section-btn-container{
+        flex-direction: column-reverse;
+}
+
+.btn.claim, .btn.countdown{
+    
     display: flex;
-    flex-direction: column-reverse;
+
     align-items: center;
     justify-content: center;
     width: 100%;
